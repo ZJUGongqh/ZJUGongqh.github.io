@@ -8,7 +8,7 @@
   <entry>
     <title><![CDATA[博客写作技巧]]></title>
     <url>%2F2019%2F01%2F07%2Fblog-skills%2F</url>
-    <content type="text"><![CDATA[实用技巧 Tag Plugins第一个实用技巧，引用网站、代码、视频等的插件，详见链接。Hexo Tag Pluginshexo.io/docs/tag-plugins插入链接的示例1 1&#123;&amp;% link text url [external] [title] %&amp;&#125; 效果text url [external] [title] 插入链接的示例21[Markdown](https://www.jianshu.com/p/b03a8d7b1719) 效果Markdown Markdown语法参考链接Markdown Asset Folders插入本地图片代码示例123&#123;&amp;% asset_path slug %&amp;&#125;&#123;&amp;% asset_img slug [title] %&amp;&#125;&#123;&amp;% asset_link slug [title] %&amp;&#125; 效果 Po上网1$ hexo g -d next主题美观技巧next主题高级next官方教程]]></content>
+    <content type="text"><![CDATA[实用技巧 Tag Plugins第一个实用技巧，引用网站、代码、视频等的插件，详见链接。Hexo Tag Pluginshexo.io/docs/tag-plugins插入链接的示例1 1&#123;&amp;% link text url [external] [title] %&amp;&#125; 效果text url [external] [title] 插入链接的示例21[Markdown](https://www.jianshu.com/p/b03a8d7b1719) 效果Markdown Markdown语法参考链接Markdown Asset Folders插入本地图片代码示例123&#123;&amp;% asset_path slug %&amp;&#125;&#123;&amp;% asset_img slug [title] %&amp;&#125;&#123;&amp;% asset_link slug [title] %&amp;&#125; 效果 Po上网1$ hexo g -d next主题美观技巧next主题高级next官方教程next进阶教程-压缩/相册]]></content>
       <categories>
         <category>blog-writing</category>
       </categories>
