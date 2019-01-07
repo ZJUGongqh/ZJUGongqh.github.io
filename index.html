@@ -21,10 +21,44 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
 
 
 
 
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-big-counter.min.css?v=1.0.2" rel="stylesheet">
 
 
 
@@ -64,10 +98,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.5.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=6.5.0">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.5.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon16.ico?v=6.5.0">
 
 
   <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
@@ -442,8 +476,17 @@
       
         
           
-            
           
+          
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/01/07/语音关键词识别项目/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -453,6 +496,10 @@
     
     
     
+    
+      <div>
+       
+      </div>
 
     
 
@@ -601,28 +648,26 @@
       
         
           
-            <h1 id="实用技巧"><a href="#实用技巧" class="headerlink" title="实用技巧"></a>实用技巧</h1><h2 id="1-Tag-Plugins"><a href="#1-Tag-Plugins" class="headerlink" title="1. Tag Plugins"></a>1. Tag Plugins</h2><p>第一个实用技巧，引用网站、代码、视频等的插件，详见链接。<br><blockquote><footer><strong>Hexo Tag Plugins</strong><cite><a href="https://hexo.io/docs/tag-plugins" target="_blank" rel="noopener">hexo.io/docs/tag-plugins</a></cite></footer></blockquote><br>插入链接的示例1</p>
-<blockquote>
-<p>&#123;% link text url [external] [title] %&#125;</p>
-</blockquote>
-<p>效果<br><a>text url [external] [title]</a></p>
-<p>插入链接的示例2</p>
-<blockquote>
-<p>&#91;Markdown](<a href="https://www.jianshu.com/p/b03a8d7b1719" target="_blank" rel="noopener">https://www.jianshu.com/p/b03a8d7b1719</a>)</p>
-</blockquote>
-<p>效果<br><a href="https://www.jianshu.com/p/b03a8d7b1719" target="_blank" rel="noopener">Markdown</a></p>
-<h2 id="2-Markdown语法"><a href="#2-Markdown语法" class="headerlink" title="2. Markdown语法"></a>2. Markdown语法</h2><p>参考链接<br><a href="https://www.jianshu.com/p/b03a8d7b1719" target="_blank" rel="noopener">Markdown</a></p>
-<h2 id="3-Asset-Folders"><a href="#3-Asset-Folders" class="headerlink" title="3. Asset Folders"></a>3. Asset Folders</h2><p>插入本地图片<br>代码示例</p>
-<blockquote>
-<p>&#123;% asset_path slug %&#125;<br>&#123;% asset_img slug [title] %&#125;<br>&#123;% asset_link slug [title] %&#125;</p>
-</blockquote>
-<p>效果<br><img src="/2019/01/07/blog-skills/转义.png"></p>
-<h2 id="4-Po上网"><a href="#4-Po上网" class="headerlink" title="4. Po上网"></a>4. Po上网</h2><blockquote>
-<p>$ hexo g -d</p>
-</blockquote>
-<h2 id="5-next主题美观技巧"><a href="#5-next主题美观技巧" class="headerlink" title="5. next主题美观技巧"></a>5. next主题美观技巧</h2><p><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">next主题高级</a></p>
+          实用技巧1. Tag Plugins第一个实用技巧，引用网站、代码、视频等的插件，详见链接。Hexo Tag Pluginshexo.io/docs/tag-plugins插入链接的示例1
 
+&#123;% link text url [external] [title] %&#125;
+
+效果text url [external] [title]
+插入链接的示例2
+
+&#91;Markdown](https://www.jianshu.com/p/b03a8d7b1719)
+
+效果Markdo
+          ...
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/01/07/blog-skills/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -632,6 +677,10 @@
     
     
     
+    
+      <div>
+       
+      </div>
 
     
 
@@ -739,7 +788,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-01-07 21:48:50" itemprop="dateModified" datetime="2019-01-07T21:48:50+08:00">2019-01-07</time>
+                <time title="修改时间：2019-01-08 01:03:52" itemprop="dateModified" datetime="2019-01-08T01:03:52+08:00">2019-01-08</time>
               
             
           </span>
@@ -756,7 +805,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/Arm-Club/" itemprop="url" rel="index"><span itemprop="name">Arm Club</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/dairy/" itemprop="url" rel="index"><span itemprop="name">dairy</span></a></span>
 
                 
                 
@@ -792,8 +841,17 @@
       
         
           
-            
           
+          
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2018/10/30/newspapername/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -803,6 +861,10 @@
     
     
     
+    
+      <div>
+       
+      </div>
 
     
 
@@ -929,17 +991,19 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new "My New Post"
+M
+          ...
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2018/10/25/hello-world/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -949,6 +1013,10 @@
     
     
     
+    
+      <div>
+       
+      </div>
 
     
 
@@ -1034,7 +1102,7 @@
                 
                 
                 <div class="site-state-item site-state-categories">
-                  
+                  <a href="/categories/index.html">
                     
                     
                       
@@ -1043,7 +1111,7 @@
                     
                     <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
-                  
+                  </a>
                 </div>
               
 
@@ -1051,18 +1119,16 @@
                 
                 
                 <div class="site-state-item site-state-tags">
-                  
+                  <a href="/tags/index.html">
                     
                     
                       
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">标签</span>
-                  
+                  </a>
                 </div>
               
             </nav>
