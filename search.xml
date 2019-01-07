@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[语音关键词识别项目]]></title>
+    <url>%2F2019%2F01%2F07%2F%E8%AF%AD%E9%9F%B3%E5%85%B3%E9%94%AE%E8%AF%8D%E8%AF%86%E5%88%AB%E9%A1%B9%E7%9B%AE%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[博客写作技巧]]></title>
+    <url>%2F2019%2F01%2F07%2Fblog-skills%2F</url>
+    <content type="text"><![CDATA[实用技巧 Tag Plugins第一个实用技巧，引用网站、代码、视频等的插件，详见链接。Hexo Tag Pluginshexo.io/docs/tag-plugins插入链接的示例1 1&#123;&amp;% link text url [external] [title] %&amp;&#125; 效果text url [external] [title] 插入链接的示例21[Markdown](https://www.jianshu.com/p/b03a8d7b1719) 效果Markdown Markdown语法参考链接Markdown Asset Folders插入本地图片代码示例123&#123;&amp;% asset_path slug %&amp;&#125;&#123;&amp;% asset_img slug [title] %&amp;&#125;&#123;&amp;% asset_link slug [title] %&amp;&#125; 效果 Po上网1$ hexo g -d next主题美观技巧next主题高级next官方教程]]></content>
+      <categories>
+        <category>blog-writing</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[newspapername]]></title>
+    <url>%2F2018%2F10%2F30%2Fnewspapername%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>dairy</category>
+      </categories>
+      <tags>
+        <tag>dairy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F10%2F25%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
