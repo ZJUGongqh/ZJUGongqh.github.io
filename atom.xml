@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qhgong.com/"/>
-  <updated>2019-01-07T22:10:12.610Z</updated>
+  <updated>2019-01-08T14:53:42.810Z</updated>
   <id>http://qhgong.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Sunflower</title>
+    <link href="http://qhgong.com/2019/01/08/sunflower/"/>
+    <id>http://qhgong.com/2019/01/08/sunflower/</id>
+    <published>2019-01-08T14:40:46.000Z</published>
+    <updated>2019-01-08T14:53:42.810Z</updated>
+    
+    <content type="html"><![CDATA[<p>Sunflower六线谱<br><a id="more"></a><br><img src="/2019/01/08/sunflower/sunflower-page1.bmp"><br><img src="/2019/01/08/sunflower/sunflower-page2.bmp"><br><img src="/2019/01/08/sunflower/sunflower-page3.bmp"><br><img src="/2019/01/08/sunflower/sunflower-page4.bmp"><br><img src="/2019/01/08/sunflower/sunflower-page5.bmp"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Sunflower六线谱&lt;br&gt;
+    
+    </summary>
+    
+      <category term="guitar" scheme="http://qhgong.com/categories/guitar/"/>
+    
+    
+      <category term="music" scheme="http://qhgong.com/tags/music/"/>
+    
+      <category term="guitar" scheme="http://qhgong.com/tags/guitar/"/>
+    
+  </entry>
   
   <entry>
     <title>语音关键词识别项目</title>
@@ -46,9 +70,9 @@
     <link href="http://qhgong.com/2019/01/07/blog-skills/"/>
     <id>http://qhgong.com/2019/01/07/blog-skills/</id>
     <published>2019-01-07T13:56:19.000Z</published>
-    <updated>2019-01-07T20:47:33.894Z</updated>
+    <updated>2019-01-08T13:01:32.587Z</updated>
     
-    <content type="html"><![CDATA[<blockquote class="blockquote-center"><h1 id="实用技巧"><a href="#实用技巧" class="headerlink" title="实用技巧"></a>实用技巧</h1></blockquote><a id="more"></a><h2 id="Tag-Plugins"><a href="#Tag-Plugins" class="headerlink" title="Tag Plugins"></a>Tag Plugins</h2><p>第一个实用技巧，引用网站、代码、视频等的插件，详见链接。<br><blockquote><footer><strong>Hexo Tag Plugins</strong><cite><a href="https://hexo.io/docs/tag-plugins" target="_blank" rel="noopener">hexo.io/docs/tag-plugins</a></cite></footer></blockquote><br>插入链接的示例1</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&amp;% link text url [external] [title] %&amp;&#125;</span><br></pre></td></tr></table></figure><p>效果<br><a>text url [external] [title]</a></p><p>插入链接的示例2<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[Markdown](https://www.jianshu.com/p/b03a8d7b1719)</span><br></pre></td></tr></table></figure></p><p>效果<br><a href="https://www.jianshu.com/p/b03a8d7b1719" target="_blank" rel="noopener">Markdown</a></p><h2 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a>Markdown语法</h2><p>参考链接<br><a href="https://www.jianshu.com/p/b03a8d7b1719" target="_blank" rel="noopener">Markdown</a></p><h2 id="Asset-Folders"><a href="#Asset-Folders" class="headerlink" title="Asset Folders"></a>Asset Folders</h2><p>插入本地图片<br>代码示例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;&amp;% asset_path slug %&amp;&#125;</span><br><span class="line">&#123;&amp;% asset_img slug [title] %&amp;&#125;</span><br><span class="line">&#123;&amp;% asset_link slug [title] %&amp;&#125;</span><br></pre></td></tr></table></figure></p><p>效果<br><img src="/2019/01/07/blog-skills/转义.png"></p><h2 id="Po上网"><a href="#Po上网" class="headerlink" title="Po上网"></a>Po上网</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><h2 id="next主题美观技巧"><a href="#next主题美观技巧" class="headerlink" title="next主题美观技巧"></a>next主题美观技巧</h2><p><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">next主题高级</a><br><a href="http://theme-next.iissnan.com/tag-plugins.html" target="_blank" rel="noopener">next官方教程</a><br><a href="https://www.jianshu.com/p/1ff2fcbdd155" target="_blank" rel="noopener">next进阶教程-压缩/相册</a></p>]]></content>
+    <content type="html"><![CDATA[<blockquote class="blockquote-center"><h1 id="实用技巧"><a href="#实用技巧" class="headerlink" title="实用技巧"></a>实用技巧</h1></blockquote><a id="more"></a><h2 id="Tag-Plugins"><a href="#Tag-Plugins" class="headerlink" title="Tag Plugins"></a>Tag Plugins</h2><p>第一个实用技巧，引用网站、代码、视频等的插件，详见链接。<br><blockquote><footer><strong>Hexo Tag Plugins</strong><cite><a href="https://hexo.io/docs/tag-plugins" target="_blank" rel="noopener">hexo.io/docs/tag-plugins</a></cite></footer></blockquote><br>插入链接的示例1</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&amp;% link text url [external] [title] %&amp;&#125;</span><br></pre></td></tr></table></figure><p>效果<br><a>text url [external] [title]</a></p><p>插入链接的示例2<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[Markdown](https://www.jianshu.com/p/b03a8d7b1719)</span><br></pre></td></tr></table></figure></p><p>效果<br><a href="https://www.jianshu.com/p/b03a8d7b1719" target="_blank" rel="noopener">Markdown</a></p><h2 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a>Markdown语法</h2><p>参考链接<br><a href="https://www.jianshu.com/p/b03a8d7b1719" target="_blank" rel="noopener">Markdown</a></p><h2 id="Asset-Folders"><a href="#Asset-Folders" class="headerlink" title="Asset Folders"></a>Asset Folders</h2><p>插入本地图片<br>代码示例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;&amp;% asset_path slug %&amp;&#125;</span><br><span class="line">&#123;&amp;% asset_img slug [title] %&amp;&#125;</span><br><span class="line">&#123;&amp;% asset_link slug [title] %&amp;&#125;</span><br></pre></td></tr></table></figure></p><p>效果<br><img src="/2019/01/07/blog-skills/转义.png"></p><h2 id="Po上网"><a href="#Po上网" class="headerlink" title="Po上网"></a>Po上网</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure><h2 id="next主题美观技巧"><a href="#next主题美观技巧" class="headerlink" title="next主题美观技巧"></a>next主题美观技巧</h2><p><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">next主题高级</a><br><a href="http://theme-next.iissnan.com/tag-plugins.html" target="_blank" rel="noopener">next官方教程</a><br><a href="https://www.jianshu.com/p/1ff2fcbdd155" target="_blank" rel="noopener">next进阶教程-压缩/相册</a><br><a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.md" target="_blank" rel="noopener">Encrypt博客加密</a></p>]]></content>
     
     <summary type="html">
     
@@ -68,9 +92,9 @@
     <link href="http://qhgong.com/2018/10/30/newspapername/"/>
     <id>http://qhgong.com/2018/10/30/newspapername/</id>
     <published>2018-10-30T12:13:24.000Z</published>
-    <updated>2019-01-08T12:55:31.337Z</updated>
+    <updated>2019-01-08T13:37:28.148Z</updated>
     
-    <content type="html"><![CDATA[<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Welcome to my blog, enter password to read." />    <label for="pass">Welcome to my blog, enter password to read.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX19JAn3EwaMQLtkIn1oWP4HZX+HWkvBvSVetGdlgjFUB1dWLte4QDOzS8DMWmxCBPtUiFw/1IWr27cbuPMdG2ViOpD8loRNgwx4=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Welcome to my blog, enter password to read." />    <label for="pass">Welcome to my blog, enter password to read.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX1+USC43SIsMpt/IvGO+EwLJ6mmVfhKYAQ1kOZs0crq1d331izUvRTYvRRedPpUCI6+s9J4fr75fnmytzBtHM7fVzPUhPPbHcRA=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     <summary type="html">
     
@@ -78,10 +102,10 @@
     
     </summary>
     
-      <category term="dairy" scheme="http://qhgong.com/categories/dairy/"/>
+      <category term="diary" scheme="http://qhgong.com/categories/diary/"/>
     
     
-      <category term="dairy" scheme="http://qhgong.com/tags/dairy/"/>
+      <category term="diary" scheme="http://qhgong.com/tags/diary/"/>
     
   </entry>
   

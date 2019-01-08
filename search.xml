@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Sunflower]]></title>
+    <url>%2F2019%2F01%2F08%2Fsunflower%2F</url>
+    <content type="text"><![CDATA[Sunflower六线谱]]></content>
+      <categories>
+        <category>guitar</category>
+      </categories>
+      <tags>
+        <tag>music</tag>
+        <tag>guitar</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[语音关键词识别项目]]></title>
     <url>%2F2019%2F01%2F07%2F%E8%AF%AD%E9%9F%B3%E5%85%B3%E9%94%AE%E8%AF%8D%E8%AF%86%E5%88%AB%E9%A1%B9%E7%9B%AE%2F</url>
     <content type="text"><![CDATA[Arm俱乐部寒假训练 环境配置与DEMO运行说明语音项目相关资料放在服务器/home/students/Demo/KWS内 交叉编译tensorflow查看tensorflow_crosscompile/README.md，按照里面的教程进行即可，注意是在服务器上进行交叉编译后再用scp或直接拷贝到RK3399上 检验是否交叉编译成功，主要是在bazel_out的子目录内找有没有libtensorflow_cc.so和libtensorflow_framework.so 上述过程就是让大家体验一下交叉编译，如果交叉编译不成功或者懒得编译，可以直接拷贝服务器上的tensorflow文件夹到RK3399上，那个已经编译完成了。 在RK3399上编译运行按照Keywordspotting/installation.md 里面的步骤，其中TensorFlow-HRT已经用tensorflow替换了，执行export指令的时候找libtensorflow_cc.so所在路径，export这个路径即可。Computelibrary相关步骤非必须，可以跳过。 这里需要注意，虽然tensorflow是服务器上编译好拷贝过去的，但是alsa是必须在RK3399板子上面编译的，按照说明里面的步骤编译安装即可。 实际要跑程序时，需要先接上麦克风，之后把麦克风设为默认设备 完成上述工作后，在keyword_spotting下执行./keyword_demo，即可运行demo，所支持的唤醒词可查看command_list.md，说出相应唤醒词则demo会进行识别。模型训练说明ML-KWS-for-MCU内为模型训练的工程，github见https://github.com/ARM-software/ML-KWS-for-MCU传在服务器的版本我做了一个小修改，在train.py和input_data.py里面，使它不需要再去从网上下载数据，现在数据在/home/students/Datasets/KWS_data中。查看README.md，里面清楚介绍了如何训练自己的模型，要和demo结合使用，大致方式如下：1、 用train.py生成训练文件（具体指令查看train_commands，里面是一些示例）2、 用freeze.py生成pb文件3、 将pb文件复制到板子上Keywordspotting/models，在Keywordspotting/bin/keyword_demo.cpp中修改加载的模型此外，在README.md最后有Quantization Guide and Deployment on Microcontrollers，里面可以链到量化的说明文件，感兴趣的同学可配合与quant相关的几个py文件看一下，结合freeze.py，尝试能够修改代码，保存quant后的pb文件，比较量化操作对模型精度和速度的影响。 项目尝试方向1、数据方面：demo中的数据量较少，可以尝试自己去采集新负样本、增广正负样本，尝试数据对训练效果的影响。 服务器当中有一个数据文件/home/students/Datasets/hey_snips_kws_3.0，属于非商用数据集，可以在https://github.com/lwhZJU/keyword-spotting-research-datasets里面查看其介绍和使用方式，只有一个词但是数据量足够大，可以自己收集足够多的负样本，尝试训练这个词的二分类模型。 2、模型方面：可尝试程序内置的各种模型，不同模型参数与训练参数的组合；有余力的同学可以自己搭建新模型，如尝试采用seq2seq，att等。 3、KWS问题在实际应用当中，可能存在误识别率(FPR)较高，噪声环境下识别率降低等问题。可以尝试用训练数据加噪，模型改进等方式，解决上述问题。 4、特征方面：目前程序是直接采用tensorflow内置的MFCC模块提取语音MFCC特征，也可以尝试提取语音的其他特征。 在进行尝试总结时，请详细记录实验结果，形成实验日志。 其他说明1、不要在源数据集上直接改动，需要改变数据集，可另作拷贝修改，同时在程序中修改数据集地址，以防止影响其他人的训练。 2、不要在DEMO文件夹里直接修改代码，可以拷贝一份到自己的子目录下，再自由更改代码。 3、尝试优化模型和调参的同学，可以几个同学一起商量一下，如何划分测试集，测试哪些指标，划分统一的测试数据，写一个统一的测试程序，方便结果的比较与讨论。 4、如果数据集和特征固定，可以尝试把提取后的特征数组与对应标签保存成为Tfrecord格式，训练时读取Tfrecord，可以节省小文件读取时间，比较显著地减少训练耗时。]]></content>
@@ -15,7 +27,7 @@
   <entry>
     <title><![CDATA[博客写作技巧]]></title>
     <url>%2F2019%2F01%2F07%2Fblog-skills%2F</url>
-    <content type="text"><![CDATA[实用技巧 Tag Plugins第一个实用技巧，引用网站、代码、视频等的插件，详见链接。Hexo Tag Pluginshexo.io/docs/tag-plugins插入链接的示例1 1&#123;&amp;% link text url [external] [title] %&amp;&#125; 效果text url [external] [title] 插入链接的示例21[Markdown](https://www.jianshu.com/p/b03a8d7b1719) 效果Markdown Markdown语法参考链接Markdown Asset Folders插入本地图片代码示例123&#123;&amp;% asset_path slug %&amp;&#125;&#123;&amp;% asset_img slug [title] %&amp;&#125;&#123;&amp;% asset_link slug [title] %&amp;&#125; 效果 Po上网1$ hexo g -d next主题美观技巧next主题高级next官方教程next进阶教程-压缩/相册]]></content>
+    <content type="text"><![CDATA[实用技巧 Tag Plugins第一个实用技巧，引用网站、代码、视频等的插件，详见链接。Hexo Tag Pluginshexo.io/docs/tag-plugins插入链接的示例1 1&#123;&amp;% link text url [external] [title] %&amp;&#125; 效果text url [external] [title] 插入链接的示例21[Markdown](https://www.jianshu.com/p/b03a8d7b1719) 效果Markdown Markdown语法参考链接Markdown Asset Folders插入本地图片代码示例123&#123;&amp;% asset_path slug %&amp;&#125;&#123;&amp;% asset_img slug [title] %&amp;&#125;&#123;&amp;% asset_link slug [title] %&amp;&#125; 效果 Po上网1$ hexo g -d next主题美观技巧next主题高级next官方教程next进阶教程-压缩/相册Encrypt博客加密]]></content>
       <categories>
         <category>blog-writing</category>
       </categories>
@@ -26,12 +38,12 @@
   <entry>
     <title><![CDATA[newspapername]]></title>
     <url>%2F2018%2F10%2F30%2Fnewspapername%2F</url>
-    <content type="text"><![CDATA[Welcome to my blog, enter password to read. Incorrect Password! No content to display! U2FsdGVkX19JAn3EwaMQLtkIn1oWP4HZX+HWkvBvSVetGdlgjFUB1dWLte4QDOzS8DMWmxCBPtUiFw/1IWr27cbuPMdG2ViOpD8loRNgwx4=]]></content>
+    <content type="text"><![CDATA[Welcome to my blog, enter password to read. Incorrect Password! No content to display! U2FsdGVkX1+USC43SIsMpt/IvGO+EwLJ6mmVfhKYAQ1kOZs0crq1d331izUvRTYvRRedPpUCI6+s9J4fr75fnmytzBtHM7fVzPUhPPbHcRA=]]></content>
       <categories>
-        <category>dairy</category>
+        <category>diary</category>
       </categories>
       <tags>
-        <tag>dairy</tag>
+        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
